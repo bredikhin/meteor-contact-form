@@ -20,6 +20,13 @@ Package.onUse(function(api) {
 
 Package.onTest(function(api) {
   api.use('tinytest');
-  api.use('bredikhin:contact-form');
+  api.use('aldeed:autoform@4.1.0');
+  api.addFiles('contact-form.js');
+  api.addFiles([
+    'client/views/contact-form.html',
+    'client/views/contact-form.js',
+    ], 'client');
+    api.addFiles('server/contact-form.js', 'server');
+  api.addFiles('contact-form.js');
   api.addFiles('contact-form-tests.js');
 });
