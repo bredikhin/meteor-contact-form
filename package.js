@@ -20,7 +20,7 @@ Package.onUse(function(api) {
 
 Package.onTest(function(api) {
   api.use('tinytest');
-  api.use('aldeed:autoform@4.1.0');
+  api.use('aldeed:autoform@5.3.0');
   api.addFiles('contact-form.js');
   api.addFiles([
     'client/views/contact-form.html',
