@@ -27,6 +27,5 @@ Package.onTest(function(api) {
     'client/views/contact-form.js',
     ], 'client');
     api.addFiles('server/contact-form.js', 'server');
-  api.addFiles('contact-form.js');
   api.addFiles('contact-form-tests.js');
 });
