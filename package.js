@@ -9,7 +9,7 @@ Package.onUse(function(api) {
   api.versionsFrom('1.0.1');
   api.use('email', 'server');
   api.use('templating', 'client');
-  api.use('aldeed:autoform@4.1.0');
+  api.use('aldeed:autoform@5.3.0');
   api.addFiles('contact-form.js');
   api.addFiles([
     'client/views/contact-form.html',
