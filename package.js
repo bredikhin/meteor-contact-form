@@ -1,7 +1,7 @@
 Package.describe({
   name: 'bredikhin:contact-form',
   summary: 'A simple contact form',
-  version: '1.0.0',
+  version: '1.0.1',
   git: 'https://github.com/bredikhin/meteor-contact-form'
 });
 
